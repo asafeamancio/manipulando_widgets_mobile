@@ -169,13 +169,13 @@ class MyFirstWidget extends StatelessWidget {
                 color: Colors.amber,
                 height: 30,
                 width: 200,
-                child: Text(
+                child: const Text(
                   "Ola, Mundo",
                   style: TextStyle(color:Colors.deepPurple,fontSize: 29),
                   textAlign: TextAlign.center,
                 ),
               ),
-              ElevatedButton(onPressed: (){print("Voce apertou algo");}, child: Text("Aperta Isso"))
+              ElevatedButton(onPressed: (){print("Voce apertou algo");}, child: const Text("Aperta Isso"))
             ],
           ),
 
